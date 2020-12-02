@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1423a357102178370d56e2a1b8c2972d",
+    "revision": "778b04f7deaf96e76b200dabab4b94b3",
     "url": "/vk-maryvish/index.html"
   },
   {
-    "revision": "7ddbfcc9cd5dcd329080",
+    "revision": "6ddaebb9d12d46af9d7f",
     "url": "/vk-maryvish/static/css/2.cdee455b.chunk.css"
   },
   {
-    "revision": "cdb362bd8f38f1dc48b2",
+    "revision": "8708c0b3c9800e0cf904",
     "url": "/vk-maryvish/static/css/main.981f7211.chunk.css"
   },
   {
-    "revision": "7ddbfcc9cd5dcd329080",
-    "url": "/vk-maryvish/static/js/2.cec63676.chunk.js"
+    "revision": "6ddaebb9d12d46af9d7f",
+    "url": "/vk-maryvish/static/js/2.22eab374.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/vk-maryvish/static/js/2.cec63676.chunk.js.LICENSE.txt"
+    "url": "/vk-maryvish/static/js/2.22eab374.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdb362bd8f38f1dc48b2",
-    "url": "/vk-maryvish/static/js/main.c79188aa.chunk.js"
+    "revision": "8708c0b3c9800e0cf904",
+    "url": "/vk-maryvish/static/js/main.9d893b1b.chunk.js"
   },
   {
     "revision": "db22c75f97b6def68915",
