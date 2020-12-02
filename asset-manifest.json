@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vk-maryvish/static/css/main.981f7211.chunk.css",
-    "main.js": "/vk-maryvish/static/js/main.983c77d7.chunk.js",
-    "main.js.map": "/vk-maryvish/static/js/main.983c77d7.chunk.js.map",
+    "main.js": "/vk-maryvish/static/js/main.52db796b.chunk.js",
+    "main.js.map": "/vk-maryvish/static/js/main.52db796b.chunk.js.map",
     "runtime-main.js": "/vk-maryvish/static/js/runtime-main.e8524e32.js",
     "runtime-main.js.map": "/vk-maryvish/static/js/runtime-main.e8524e32.js.map",
     "static/css/2.cdee455b.chunk.css": "/vk-maryvish/static/css/2.cdee455b.chunk.css",
     "static/js/2.c3adbbf6.chunk.js": "/vk-maryvish/static/js/2.c3adbbf6.chunk.js",
     "static/js/2.c3adbbf6.chunk.js.map": "/vk-maryvish/static/js/2.c3adbbf6.chunk.js.map",
     "index.html": "/vk-maryvish/index.html",
-    "precache-manifest.07de1c8365060542a96b15a8de11adb2.js": "/vk-maryvish/precache-manifest.07de1c8365060542a96b15a8de11adb2.js",
+    "precache-manifest.8ec27559927a03cde7e82ee546e91ecb.js": "/vk-maryvish/precache-manifest.8ec27559927a03cde7e82ee546e91ecb.js",
     "service-worker.js": "/vk-maryvish/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/vk-maryvish/static/css/2.cdee455b.chunk.css.map",
     "static/css/main.981f7211.chunk.css.map": "/vk-maryvish/static/css/main.981f7211.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.cdee455b.chunk.css",
     "static/js/2.c3adbbf6.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.983c77d7.chunk.js"
+    "static/js/main.52db796b.chunk.js"
   ]
 }
