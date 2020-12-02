@@ -35,12 +35,6 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Banner
-		        before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-		        header="Для Вас"
-		        subheader="Обновлено сегодня"
-		        actions={<Button before={<Icon24Play />}>СЛУШАТЬ</Button>}
-		      />
 			<Persik id='persik' go={go} />
 		</View>
 	);
