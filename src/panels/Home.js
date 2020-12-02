@@ -7,12 +7,13 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
-import { Banner } from '@vkontakte/vkui';
+import { Banner, CardGrid, Card, Header, PanelHeaderButton } from '@vkontakte/vkui';
+import Icon28CompassCircleFillBlue from '@vkontakte/icons/dist/28/compass_circle_fill_blue';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Example</PanelHeader>
-		{fetchedUser &&
+		<PanelHeader left={(fetchedUser && fetchedUser.photo_200) ? <Avatar src={fetchedUser.photo_200}/> : null} right={<PanelHeaderButton><Icon28CompassCircleFillBlue /></PanelHeaderButton>} >MARYVISH.ru</PanelHeader>
+		{fetchedUser &
 		<Group title="User Data Fetched with VK Bridge">
 			<Cell
 				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
@@ -23,17 +24,13 @@ const Home = ({ id, go, fetchedUser }) => (
 		</Group>}
 
 		<Group title="Navigation Example">
-			<Div>
-				<Banner
-		        before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-		        header="Для Вас"
-		        subheader="Обновлено сегодня"
-		        actions={<Button>СЛУШАТЬ</Button>}
-		      />
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please
-				</Button>
-			</Div>
+			<Group separator="hide" header={<Header mode="secondary">С внешней тенью</Header>}>
+		        <CardGrid>
+		          <Card size="l" mode="shadow">
+		            <div style={{ height: 96 }} />
+		          </Card>
+		        </CardGrid>
+		    </Group>
 		</Group>
 	</Panel>
 );
