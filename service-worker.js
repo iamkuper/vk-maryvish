@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vk-maryvish/precache-manifest.8ec27559927a03cde7e82ee546e91ecb.js"
+  "/vk-maryvish/precache-manifest.c1a738f80a0a7c32bbe5e3d64b59857c.js"
 );
 
 self.addEventListener('message', (event) => {
